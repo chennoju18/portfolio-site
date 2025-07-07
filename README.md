@@ -1,36 +1,32 @@
-# Portfolio Website – Sandhya Chennoju
+# Sandhya Chennoju — Portfolio Website
 
-A professional developer portfolio built using **React.js**, **Tailwind CSS**, and **React Router**, deployed with **Netlify**.
+This is my personal portfolio website showcasing my projects, skills, and resume.
 
-## 🔗 Live Site
+## 🛠️ Tech Stack
 
-[Click to View Portfolio](https://your-netlify-site.netlify.app)  
-> (Update this link after deployment)
+- React.js (with Vite)
+- Tailwind CSS
+- React Router
+- Deployed on Netlify
 
-## 🧩 Tech Stack
+## 🚀 Live Portfolio
 
-- **Frontend:** React, TailwindCSS, React Router, Vite
-- **Deployment:** Netlify (frontend), Render (backend in other projects)
+**Coming soon after deployment**
 
-## 🚀 Projects Featured
+## 📁 Project Sections
 
-### 1. Advanced To-Do List App
-- Smart task manager with NLP suggestions
-- React + Node.js + MongoDB
-- [🔗 Live Demo](https://myadvancedtodoapp.netlify.app)
+- **Home** – Introduction and resume download
+- **Projects** – Screenshots, live demos, GitHub links
+- **Skills** – Full categorized list (Frontend, AI, Tools, etc.)
+- **Resume** – Download/view my latest PDF resume
+- **Contact** – Profile picture, email, LinkedIn, and phone number
 
-### 2. Invoice Scanner + Payment Tracker
-- OCR + NLP-powered invoice scanner
-- React + Flask + MongoDB
-- [🔗 Live Demo](https://invoice-tracker-frontend.onrender.com)
+## 🔗 Social
 
-## 📄 Resume
+- 📧 Email: chennoju.18@gmail.com  
+- 📞 Phone: (980) 406-8079  
+- 💼 [LinkedIn](https://linkedin.com/in/chennoju)
 
-[📄 View Resume](https://your-netlify-site.netlify.app/Sandhya_Resume.pdf)
+---
 
-## 📫 Contact
-
-- **Email:** chennoju.18@gmail.com
-- **Phone:** (980) 406-8079
-- **LinkedIn:** [linkedin.com/in/chennoju](https://www.linkedin.com/in/chennoju)
 
