@@ -11,7 +11,7 @@ This is my personal portfolio website showcasing my projects, skills, and resume
 
 ## 🚀 Live Portfolio
 
-**Coming soon after deployment**
+**Live Site:** https://sandhyachennoju-portfolio.netlify.app
 
 ## 📁 Project Sections
 
