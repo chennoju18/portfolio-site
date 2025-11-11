@@ -7,8 +7,8 @@ export default function Navbar() {
 <ul className="flex space-x-4 text-white">
   <li><Link to="/">Home</Link></li>
   <li><Link to="/projects">Projects</Link></li>
-  <li><Link to="/resume">Resume</Link></li>
-  <li><Link to="/contact">Contact</Link></li>
+  <li><Link to="/experience">Experience</Link></li>
+  <li><Link to="/contact">Details</Link></li>
   <li><Link to="/skills">Skills</Link></li>
 </ul>
     </nav>

@@ -1,88 +1,70 @@
-import React from 'react'
+import React from 'react';
 
 export default function Skills() {
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold mb-10 text-center">Skills</h1>
+    <div className="min-h-screen bg-white text-gray-800 p-8">
+      <h1 className="text-4xl font-bold text-center mb-10">Skills & Tools</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-gray-700">
-        
-        {/* Frontend */}
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-blue-700">Frontend</h2>
-          <ul className="list-disc list-inside">
-            <li>React.js</li>
-            <li>Tailwind CSS</li>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>Material UI, Bootstrap</li>
+          <h2 className="text-xl font-semibold mb-2">🔍 Business Analysis</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Requirements Gathering</li>
+            <li>BRD / FRD Documentation</li>
+            <li>Gap Analysis, Use Cases</li>
+            <li>Process Mapping (BPMN, UML)</li>
+            <li>User Acceptance Testing (UAT)</li>
           </ul>
         </div>
 
-        {/* Backend */}
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-green-700">Backend</h2>
-          <ul className="list-disc list-inside">
-            <li>Node.js, Express.js</li>
-            <li>Python (Flask, FastAPI)</li>
-            <li>SMTP (email automation)</li>
+          <h2 className="text-xl font-semibold mb-2">📊 Reporting & Modeling</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>SQL (Validation & Queries)</li>
+            <li>Power BI, Tableau</li>
+            <li>Data Modeling & KPIs</li>
           </ul>
         </div>
 
-        {/* Programming Languages */}
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-purple-700">Languages</h2>
-          <ul className="list-disc list-inside">
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
+          <h2 className="text-xl font-semibold mb-2">🛠️ Tools & Platforms</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Jira, Azure DevOps, Confluence</li>
+            <li>MS Visio, Lucidchart, Balsamiq</li>
+            <li>ServiceNow</li>
           </ul>
         </div>
 
-        {/* Databases */}
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-indigo-700">Databases</h2>
-          <ul className="list-disc list-inside">
-            <li>MongoDB</li>
-            <li>PostgreSQL</li>
-            <li>Firebase</li>
+          <h2 className="text-xl font-semibold mb-2">💻 Technical Skills</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Python (pandas, NumPy)</li>
+            <li>Flask, Node.js, Express</li>
+            <li>React.js, MongoDB</li>
+            <li>HTML, CSS, Tailwind CSS</li>
           </ul>
         </div>
 
-        {/* AI / Machine Learning */}
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-pink-700">AI / Machine Learning</h2>
-          <ul className="list-disc list-inside">
-            <li>NLP, BERT, LSTM</li>
-            <li>Compromise.js, pytesseract</li>
-            <li>TensorFlow, PyTorch</li>
-            <li>OpenCV, CNNs, RNNs</li>
+          <h2 className="text-xl font-semibold mb-2">🧠 AI & Automation</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>OCR, pytesseract</li>
+            <li>Compromise.js (NLP)</li>
+            <li>Automation Concepts</li>
           </ul>
         </div>
 
-        {/* Developer Tools */}
         <div>
-          <h2 className="text-xl font-semibold mb-2 text-yellow-700">Developer Tools</h2>
-          <ul className="list-disc list-inside">
-            <li>VS Code</li>
-            <li>Git, GitHub</li>
-            <li>Vite, Netlify, Render</li>
-            <li>Postman</li>
-          </ul>
-        </div>
-
-        {/* Office Tools */}
-        <div>
-          <h2 className="text-xl font-semibold mb-2 text-red-700">Office / Productivity</h2>
-          <ul className="list-disc list-inside">
-            <li>Microsoft 365 (Word, PowerPoint, Excel)</li>
-            <li>Google Docs</li>
-            <li>Canva</li>
+          <h2 className="text-xl font-semibold mb-2">🚀 Deployment Tools</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Netlify (Portfolio, To-Do App)</li>
+            <li>Render (Invoice Tracker backend)</li>
           </ul>
         </div>
 
       </div>
     </div>
-  )
+  );
 }
 
