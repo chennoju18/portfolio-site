@@ -1,70 +1,81 @@
-import React from 'react';
+import React from 'react'
 
 export default function Skills() {
   return (
     <div className="min-h-screen bg-white text-gray-800 p-8">
-      <h1 className="text-4xl font-bold text-center mb-10">Skills & Tools</h1>
+      <h1 className="text-4xl font-bold text-center mb-10">Skills</h1>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">🔍 Business Analysis</h2>
+          <h2 className="text-xl font-semibold mb-2 text-blue-700">Frontend Development</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Requirements Gathering</li>
-            <li>BRD / FRD Documentation</li>
-            <li>Gap Analysis, Use Cases</li>
-            <li>Process Mapping (BPMN, UML)</li>
-            <li>User Acceptance Testing (UAT)</li>
+            <li>React.js</li>
+            <li>JavaScript ES6+</li>
+            <li>HTML5, CSS3</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap, Material UI</li>
+            <li>Responsive UI Design</li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">📊 Reporting & Modeling</h2>
+          <h2 className="text-xl font-semibold mb-2 text-green-700">Backend Development</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>SQL (Validation & Queries)</li>
-            <li>Power BI, Tableau</li>
-            <li>Data Modeling & KPIs</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>FastAPI</li>
+            <li>REST API Integration</li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">🛠️ Tools & Platforms</h2>
+          <h2 className="text-xl font-semibold mb-2 text-purple-700">Databases</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Jira, Azure DevOps, Confluence</li>
-            <li>MS Visio, Lucidchart, Balsamiq</li>
-            <li>ServiceNow</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Firebase</li>
+            <li>SQL Basics</li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">💻 Technical Skills</h2>
+          <h2 className="text-xl font-semibold mb-2 text-pink-700">AI / ML Exposure</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Python (pandas, NumPy)</li>
-            <li>Flask, Node.js, Express</li>
-            <li>React.js, MongoDB</li>
-            <li>HTML, CSS, Tailwind CSS</li>
+            <li>NLP</li>
+            <li>BERT, LSTM</li>
+            <li>TensorFlow, PyTorch</li>
+            <li>OpenCV</li>
+            <li>PyTesseract / OCR</li>
+            <li>Compromise.js</li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">🧠 AI & Automation</h2>
+          <h2 className="text-xl font-semibold mb-2 text-yellow-700">Developer Tools</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>OCR, pytesseract</li>
-            <li>Compromise.js (NLP)</li>
-            <li>Automation Concepts</li>
+            <li>Git, GitHub</li>
+            <li>Postman</li>
+            <li>VS Code</li>
+            <li>Terminal</li>
+            <li>Vite</li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mb-2">🚀 Deployment Tools</h2>
+          <h2 className="text-xl font-semibold mb-2 text-red-700">Deployment & Productivity</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Netlify (Portfolio, To-Do App)</li>
-            <li>Render (Invoice Tracker backend)</li>
+            <li>Netlify</li>
+            <li>Render</li>
+            <li>Microsoft Word, PowerPoint, Excel</li>
+            <li>Canva</li>
+            <li>Google Docs</li>
           </ul>
         </div>
 
       </div>
     </div>
-  );
+  )
 }
-
